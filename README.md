@@ -1,7 +1,8 @@
 PieChartwithPython
 ==================
 
-##Simple pie chart creation with hatching
+##Simple pie chart creation with hatching with Python 3
+##camembert ou diagramme circulaire, avec ou sans hachure sous Python 3
 
 Small program in Python 3 to create pie graphs with or without hatching, file is saved in png (also pdf or svg).
 
