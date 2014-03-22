@@ -7,14 +7,13 @@ one option is to add values in the labels i.e. 'toto \n 10 %'
 Usage : date to be filled in the program then run to generate figure
     Argument after program name will change figure filename
     nofile will avoid saving figure to file
-Last update S. Caillat 17/9/2013"""
+Last update S. Caillat 22/03/2014"""
 import matplotlib.pyplot as plt
 from pylab import *
 import os,sys
 def help():
     scriptname = os.path.basename(sys.argv[0])
     print("Usage:")
-    print(scriptname+' with no argument: print & save data to file')
     print(scriptname+' <file_name>: chose figure.png file name')
     print(scriptname+' <nofile>: just display, no data file saved')
     print('See setting in file '+scriptname+' for other options') 
